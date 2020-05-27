@@ -1,0 +1,27 @@
+{
+  "name": "amberjs",
+  "version": "1.0.0",
+  "description": "Simplifies the pulling of Amber Alert information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AidanWelch/amberjs.git"
+  },
+  "keywords": [
+    "Amber",
+    "Alert",
+    "API"
+  ],
+  "author": "Aidan Welch",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AidanWelch/amberjs/issues"
+  },
+  "homepage": "https://github.com/AidanWelch/amberjs#readme",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
