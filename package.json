@@ -4,7 +4,7 @@
   "description": "Simplifies the pulling of Amber Alert information.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --timeout 10000"
   },
   "repository": {
     "type": "git",
