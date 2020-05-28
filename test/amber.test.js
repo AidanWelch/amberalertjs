@@ -1,5 +1,5 @@
 const assert = require('assert');
-const amberjs = require('../index');
+const amberalertjs = require('../index');
 
 describe('Test of the Schema class', () => {
 
@@ -7,7 +7,7 @@ describe('Test of the Schema class', () => {
 
     describe('GetAlerts()', () => {
         it('should return the active alerts', () => {
-            let result = amberjs.GetAlerts();
+            let result = amberalertjs.GetAlerts();
             assert.doesNotReject(result);
             return result.then((res) => {
                 assert(Array.isArray(res));
@@ -17,7 +17,7 @@ describe('Test of the Schema class', () => {
         });
 
         it('should return the active alerts in a state', () => {
-            let result = amberjs.GetAlerts("KY");
+            let result = amberalertjs.GetAlerts("KY");
             assert.doesNotReject(result);
             return result.then((res) => {
                 assert(Array.isArray(res));
@@ -28,7 +28,7 @@ describe('Test of the Schema class', () => {
 
     describe('GetDetails()', () => {
         it('should return the details of the latest alert', () => {
-            let result = amberjs.GetDetails(amberid);
+            let result = amberalertjs.GetDetails(amberid);
             assert.doesNotReject(result);
             return result.then((res) => {
                 assert(typeof res === 'object');

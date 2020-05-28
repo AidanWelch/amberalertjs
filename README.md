@@ -1,15 +1,15 @@
-# amberjs
+# amberalertjs
 A simple Node.js module for pulling Amber alerts
 
 ### Example
 
 In this example we will ```console.log()``` the circumstance of the most recent, the first alert, in KY.
 ```js
-const amberjs = require('amberjs');
+const amberalertjs = require('amberalertjs');
 
-amberjs.GetAlerts('KY').then((res) => {
+amberalertjs.GetAlerts('KY').then((res) => {
     if(res[0]){
-        amberjs.GetDetails(res[0].amberId).then((res) => {
+        amberalertjs.GetDetails(res[0].amberId).then((res) => {
             console.log(res.circumstances);
         })
     } else {
@@ -21,7 +21,7 @@ amberjs.GetAlerts('KY').then((res) => {
 
 ## Docs
 
-Amberjs has two functions, ```GetAlerts()``` and ```GetDetails()```.
+amberalertjs has two functions, ```GetAlerts()``` and ```GetDetails()```.
 
 <ins>Remember the Amber Alert API returns an object with an amberId of 0 when it cannon find the query on GetDetails().</ins>
 

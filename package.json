@@ -1,5 +1,5 @@
 {
-  "name": "amberjs",
+  "name": "amberalertjs",
   "version": "1.0.0",
   "description": "Simplifies the pulling of Amber Alert information.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AidanWelch/amberjs.git"
+    "url": "git+https://github.com/AidanWelch/amberalertjs.git"
   },
   "keywords": [
     "Amber",
@@ -18,9 +18,9 @@
   "author": "Aidan Welch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AidanWelch/amberjs/issues"
+    "url": "https://github.com/AidanWelch/amberalertjs/issues"
   },
-  "homepage": "https://github.com/AidanWelch/amberjs#readme",
+  "homepage": "https://github.com/AidanWelch/amberalertjs#readme",
   "devDependencies": {
     "mocha": "^7.2.0"
   }
