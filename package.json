@@ -1,6 +1,6 @@
 {
   "name": "amberalertjs",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Simplifies the pulling of Amber Alert information.",
   "main": "index.js",
   "scripts": {

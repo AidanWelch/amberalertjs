@@ -21,7 +21,7 @@ amberalertjs.GetAlerts('KY').then((res) => {
 
 ## Docs
 
-amberalertjs has two functions, ```GetAlerts()``` and ```GetDetails()```.  Both have an optional timout parameter that defaults to 10 seconds on their requests.
+amberalertjs has two functions, ```GetAlerts()``` and ```GetDetails()```.  Both have an optional timeout parameter that defaults to 10 seconds on their requests, it is measured in milliseconds.
 
 <ins>Remember the Amber Alert API returns an object with an amberId of 0 when it cannon find the query on GetDetails().</ins>
 
