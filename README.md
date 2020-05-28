@@ -62,7 +62,7 @@ Details objects follow this schema:
   orgName: '',
   circumstances: 'UPDATE AMBER ALERT: The suspect has been found deceased but the child is still missing. UPDATE AMBER ALERT: The vehicle information and tag number has been updated.  A Florida AMBER Alert has been issued for First Last, last seen in the area of the 21900 block of Southwest 187th Avenue in Miami.The child may be in the company of First Last Sr. They may be traveling in a white Ford Passenger Van, FL tag number NOTR3AL. If located, DO NOT APPROACH. Contact law enforcement immediately. #FLAMBER.',
   contactOrg: 'Miami-Dade Police Department',
-  contactPhone: '305-471-2400',
+  contactPhone: '555-555-5555',
   personList: [
     {
       amberId: 0,
