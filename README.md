@@ -24,6 +24,8 @@ amberjs.GetAlerts('KY').then((res) => {
 Amberjs has two functions, ```GetAlerts()``` and ```GetDetails()```.
 
 <ins>Remember the Amber Alert API returns an object with an amberId of 0 when it cannon find the query on GetDetails().</ins>
+
+
 <ins>An invalid state tag on GetAlerts() will return an empty array just like a state with no active alerts.</ins>
 
 ```GetAlerts()``` returns a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that when fulfilled returns an array of alert objects.  ```GetAlerts()``` can take an input two-letter state code.  For example: ```GetAlerts("KY")```
