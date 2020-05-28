@@ -42,7 +42,7 @@ Alert objects follow this schema:
 }
 ```
 
-```GetDetails()``` returns a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that when fulfilled returns on object containing the details of an alert.
+```GetDetails(amberId)``` returns a [promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) that when fulfilled returns on object containing the details of an alert.  It requires an amberId input.
 
 Details objects follow this schema:
 
