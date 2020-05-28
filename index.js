@@ -11,7 +11,7 @@ class Options {
 }
 
 module.exports = {
-    GetAlerts: function(state = ""){
+    GetAlerts: function(state = "", timeout = 10000){
         return new Promise((resolve, reject) => {
             (async function(){
                 var req = https.request(new Options(`/bin/ncmecEndpoint?endpoint=en_US&rest=&action=amberAlert&missState=${state}`), (res) => {
@@ -29,11 +29,11 @@ module.exports = {
 
             setTimeout(() =>{
                 reject("Timed out!");
-            }, 10000);
+            }, timeout);
 
         });
     },
-    GetDetails: function(amberId){
+    GetDetails: function(amberId, timeout = 10000){
         return new Promise((resolve, reject) => {
             (async function(){
                 var req = https.request(new Options(`/bin/ncmecEndpoint?endpoint=en_US&rest=&?action=amberDetail&amberId=${amberId}&LanguageId=en_US`), (res) => {
@@ -51,7 +51,7 @@ module.exports = {
 
             setTimeout(() =>{
                 reject("Timed out!");
-            }, 10000);
+            }, timeout);
 
         });
     }
