@@ -1,5 +1,5 @@
 # amberalertjs
-A simple Node.js module for pulling Amber alerts
+A simple Node.js module for pulling Amber alerts.  [Install using NPM](https://www.npmjs.com/package/amberalertjs)
 
 ### Example
 
